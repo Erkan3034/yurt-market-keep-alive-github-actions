@@ -2,9 +2,8 @@ name: Keep Render Backend Alive
 
 on:
   schedule:
-    # Her 12 dakikada bir çalışır (UTC)
     - cron: "*/12 * * * *"
-  workflow_dispatch: # manuel çalıştırmak için kalsın
+  workflow_dispatch:
 
 jobs:
   ping:
